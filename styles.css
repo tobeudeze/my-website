@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header.hero {
+    background-color: #425C52;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    background-color: #F7C23E;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.hero-buttons .btn-secondary {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+section.products {
+    padding: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+section.why-choose-us {
+    padding: 50px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+section.highlights {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.highlight-content {
+    max-width: 40%;
+}
+
+.highlight-images {
+    display: flex;
+    gap: 10px;
+}
+
+.highlight-images img {
+    width: 200px;
+    border-radius: 10px;
+}
